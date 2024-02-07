@@ -1,7 +1,18 @@
 # Ignore directories
-/SE3D/datasets/
-/SE3D/data/
-/SE3D/models/
+/SE3D/datasets/*
+!/SE3D/datasets/ShapeNetVox32/
+/SE3D/datasets/ShapeNetVox32/*
+!/SE3D/datasets/ShapeNetVox32/*.txt
+!/SE3D/datasets/scannet/
+/SE3D/datasets/scannet/*
+!/SE3D/datasets/scannet/*.md
+!/SE3D/datasets/BraTS/
+/SE3D/datasets/BraTS/*
+!/SE3D/datasets/BraTS/*.md
+/SE3D/data/*
+!/SE3D/data/output.txt
+/SE3D/models/*
+!/SE3D/models/*fold0*
 /SE3D/BraTS_Experiments/
 
 # Ignore all __pycache__ folders
